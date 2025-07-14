@@ -1,12 +1,18 @@
 [project]
-name = "mentor-gpt"
+name = "mentor-gpts"
 version = "0.1.0"
-description = "A collection of customGPTs for mentoring"
+description = "A collection of locally running customGPTs for mentoring"
+readme = "README.md"
 authors = [
-    { name = "Nikola Sobadjiev", email = "you@example.com" }
+    { name = "Nikola Sobadjiev", email = "nikola@kumulintelligence.com" }
 ]
 dependencies = [
     "litellm",
     "streamlit"
 ]
 requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+]
